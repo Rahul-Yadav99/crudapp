@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.curd-app{
+  background: white;
+  border-radius: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.curd-app tr{
+  text-align: center;
+  padding: 12px;
+}
+.curd-app tr:nth-child(even){
+  background-color: #ddd;
+}
+
+.curd-app td{
+  padding: 24px 0;
+}
+.curd-app th{
+  padding: 24px;
+  background-color: black;
+  color: white;
+}
